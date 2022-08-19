@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    gap: 20px;
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.item-light {
+    background-color: lightgreen;
+    font-size: 4rem;
+}
+
+.item-medium {
+    background-color: rgb(60, 144, 60);
+    font-size: 4rem;
+}
+
+.item-dark {
+    background-color: rgb(0, 66, 0);
+    font-size: 4rem;
+}

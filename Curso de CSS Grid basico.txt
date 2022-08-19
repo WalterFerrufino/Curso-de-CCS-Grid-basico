@@ -1,0 +1,39 @@
+juego para practicar: https://cssgridgarden.com/#es
+grid-column-start: 
+grid-column-end: 
+grid-column: */*;
+grid-row-start: 
+grid-row-end:
+grid-row: */*;
+grid-area: */*/*/*; (grid-row-start, grid-column-start, grid-row-end, seguido de grid-column-end)
+
+ 
+row-gap: pone espacio entre las filas (solo entre las filas, no entre los bloques y el contenedor)
+column-gap: pone espacio entre las filas (solo entre las columnas, no entre los bloques y el contenedor)
+gap: pone espacio uniforme entre filas y columnas.
+
+Por ejemplo:
+#class {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+dará como resultado una grilla de 5x5 celdas iguales
+
+------------------------------------------------------
+4.Propiedades de la alineación
+
+Justify-items(alineación horizontal)
+Align-items (alineación vertical)
+Place-items (mezcla)
+Propiedades para la alineación del container(El Contenedor):
+
+Justify-content
+Align-content
+Place-content
+Propiedades para la alineación de un solo item individual
+
+Justify-self
+Align-self
+Place-self
+------------------------------------------------------
